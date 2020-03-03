@@ -16,6 +16,6 @@ class App < Sinatra::Base
   
   post '/' do
     
-    
+    @new_pup = params[:name = name, :breed = breed, :age = age]
 
 end
